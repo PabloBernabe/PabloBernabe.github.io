@@ -1,0 +1,105 @@
+@font-face
+{
+  font-family: "NinjaSushi";
+  src: url(../fonts/NinjaSushi.ttf);
+}
+body
+{
+    margin: 0;
+    background-image:url(../img/FondoJapo.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+main
+{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    max-width:100vw;
+    align-content: center;
+}
+
+header
+{
+    height: 20vh;
+}
+
+section
+{
+    display: flex;
+    max-height: 90vw;
+    margin-left: 2vh;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10vw;
+    
+}
+
+section img
+{
+    width:60%;
+    padding:10px 10px 10px 10px;
+    border:1px solid #96aa3d;
+    background-color:#96aa3d;
+    box-shadow:10px 10px 20px rgba(0, 0, 0, 0.8);
+    max-height: 500px;
+    max-width: 500px;
+    
+}
+
+section img:hover
+{
+    filter: saturate(200%);    
+    transform:scale(1.2);transform:scale(1.2);
+}
+
+.logo
+{
+    width: 15vh;
+    height: 15vh;
+    float: left;
+    margin-left: 2vh;
+    margin-top: 5px;
+  
+}
+
+ul
+{
+    float: right;
+    margin: 5px 15px 0 0;
+}
+
+nav a
+{
+    font-family: ;
+    color: inherit;
+    font-size: 14px;
+    text-decoration: none;
+} 
+
+nav li
+{
+    display: inline-block;
+    padding: 1vh 5vh;
+    background-color: #e38698;
+    border: 2px solid #71714a;
+    text-align: center;
+    color: #000000;
+    font-family: NinjaSushi;
+    font-weight: bold;
+}
+
+nav li:hover
+{
+    background-color: #868686;
+    color: #fff;
+}
+
+nav a:hover
+{
+    cursor: hand;
+    text-decoration: underline;
+}

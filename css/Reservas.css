@@ -1,0 +1,105 @@
+@font-face
+{
+  font-family: "NinjaSushi";
+  src: url(../fonts/NinjaSushi.ttf);
+}
+body 
+{
+    margin: 0;
+    background-image:
+        linear-gradient(
+        rgba(58, 55, 55, 0.5),
+        rgba(0, 0, 0, 0.5)),
+        url(../img/NatsuRamenFondo.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+    
+}
+
+header
+{
+    height: 20%;
+    display: table;
+}
+
+.logo
+{
+    width: 15vh;
+    height: 15vh;
+    float: left;
+    margin-left: 2vh;
+    margin-top: 5px;
+}
+
+main
+{
+    display: table;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+section
+{
+    align-content: center;
+    align-items: center;
+}
+
+form
+{
+    height: 300px;
+    width: 40vh;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    align-content: center;
+    align-items: center;
+    background-color:rgba(255, 255, 255, 0.404);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px;
+}
+
+form label
+{
+    margin: 5px;
+}
+
+ul
+{
+    float: right;
+    margin: 5px 15px 0 0;
+}
+nav a
+{
+    font-family: ;
+    color: inherit;
+    font-size: 14px;
+    text-decoration: none;
+} 
+
+nav li
+{
+    display: inline-block;
+    padding: 1vh 5vh;
+    background-color: #e38698;
+    border: 2px solid #71714a;
+    text-align: center;
+    color: #000000;
+    font-family: NinjaSushi;
+    font-weight: bold;
+}
+
+nav li:hover
+{
+    background-color: #868686;
+    color: #fff;
+}
+
+nav a:hover
+{
+    cursor: hand;
+    text-decoration: underline;
+}
