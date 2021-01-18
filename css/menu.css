@@ -1,0 +1,104 @@
+* 
+{
+  box-sizing: border-box; 
+}
+
+@font-face
+{
+  font-family: "NinjaSushi";
+  src: url(../fonts/NinjaSushi.ttf);
+}
+
+body 
+{
+  flex-direction: column;
+  margin: 0;
+  background:#e38698;
+}
+
+header
+{
+  background: rgb(117, 6, 117);
+  height: 75vh;
+  background-image: url("../img/menu.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+.logo
+{
+  width: 15vh;
+  height: 15vh;
+  margin-top: 5px;
+  float: left;
+  margin-left: 2vh;
+}
+
+ul
+{
+  float: right;
+  margin: 5px 15px 0 0;
+}
+
+nav a
+{
+  font-family: NinjaSushi;
+  font-weight: bold;
+  color: inherit;
+  font-size: 14px;
+  text-decoration: none;
+} 
+
+nav li
+{
+  display: inline-block;
+  padding: 1vh 5vh;
+  background-color: #e38698;
+  border: 2px solid #71714a;
+  text-align: center;
+  color: #000000;
+}
+
+nav li:hover
+{
+  background-color: #868686;
+  color: #fff;
+}
+
+nav a:hover
+{
+  cursor: hand;
+  text-decoration: underline;
+}
+
+footer
+{
+  background:#e38698;
+  height: 23vh;
+  font-size: 20px;
+}
+
+footer p
+{
+  text-align: justify;
+  margin-right: 50vh;
+  color: #fff;
+}
+
+.ntii
+{
+  margin-left: 3vh;
+}
+
+.instagram
+{
+  width: 15vh;
+  height: 15vh;
+  float: right;
+  margin-right: 15vh;
+  margin-top: 2vh;
+}
+
